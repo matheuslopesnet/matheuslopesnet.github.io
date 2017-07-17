@@ -1,0 +1,26 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0; padding:0;}
+body { background-color:#ccc;}
+
+
+
+/* projects */
+#projects { list-style:none; margin-left: -20px;}
+#projects li { display:inline; float:left;
+	-webkit-perspective: 5000; -webkit-transform-style: preserve-3d;
+	-webkit-transition-property: perspective; margin-left: 10px; margin-bottom: 30px; }
+	
+#projects li img { border:10px solid #fcfafa;
+	-moz-box-shadow:0 3px 10px #888; -webkit-box-shadow:0 3px 10px #888;}
+
+.projectinfo { padding:30px; width:200px; height:180px; background-color:#fff;  position:absolute;
+	 margin:-240px 0 0 30px;}
+	
+	
+.projectinfo h3 { color:#7a3f3a; font-variant: small-caps; font-family:Georgia,serif,Times; text-align:center; padding-bottom:15px; }
+.projectinfo p { padding-bottom:22px; }
+
+.btn{margin-left: 120px; position: absolute; background-color: #26538F; border-radius: 0px 0px 10px 10px; padding: 2px; padding-right: 10px; padding-left: 10px;}
+
+a:link, a:visited, a:active, a:hover {text-decoration: none; color: #fff;}
+a:hover {text-decoration: none; background-color: #2F5FFF;}
+
