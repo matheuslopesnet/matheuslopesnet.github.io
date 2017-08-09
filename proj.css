@@ -1,0 +1,25 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0; padding:0;}
+body { background-color:#ccc;}
+
+
+
+/* projects */
+#projects { list-style:none; margin-left: -20px;}
+#projects div { margin-bottom: 30px; }
+	
+#projects div img { border:10px solid #fcfafa;
+	-moz-box-shadow:0 3px 10px #888; -webkit-box-shadow:0 3px 10px #888;}
+
+.projectinfo { padding:30px; width:200px; height:180px; background-color:#fff;  position:absolute;
+	 margin:-240px 0 0 30px;}
+	
+	
+.projectinfo h3 {text-align:center; color: #333ff3;}
+.projectinfo p { padding-bottom:22px;}
+
+.btn{margin-left: 185px; margin-top: -40px;position: absolute; background-color: #ccc;}
+.btn:hover{background-color: blueviolet}
+
+a:link, a:visited, a:active, a:hover {text-decoration: none; color: #fff;}
+a:hover {text-decoration: none; background-color: #2F5FFF;}
+
