@@ -55,6 +55,20 @@ article {
     color: #000;
 }
 
+.mini{
+    text-decoration: none;
+}
+
+.profile{
+    border-radius: 50%;
+    float: none;
+    text-decoration: none;
+}
+
+#profile{
+    margin-top: 50px;
+}
+
 .gray {
     background: #696969;
     width: 80%;
